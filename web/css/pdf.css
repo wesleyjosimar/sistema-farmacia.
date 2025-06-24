@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+h1 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.entrada {
+    color: green;
+}
+
+.saida {
+    color: red;
+}
+
+.totais {
+    margin-bottom: 20px;
+}
+
+.totais td {
+    padding: 10px;
+}
+
+.footer {
+    text-align: right;
+    font-size: 10px;
+    color: #666;
+    margin-top: 20px;
+} 
