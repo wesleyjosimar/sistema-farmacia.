@@ -149,9 +149,9 @@ Este projeto foi desenvolvido para aprender:
 ## 👨‍💻 Autor
 
 **Estudante de Ciência da Computação**
-- Universidade: [Nome da Universidade]
+- Universidade: Unoesc - Videira
 - Disciplina: Desenvolvimento Web
-- Professor: [Nome do Professor]
+- Professor: LEANDRO OTAVIO CORDOVA VIEIRA
 
 ## 📄 Licença
 
