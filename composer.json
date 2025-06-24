@@ -1,13 +1,13 @@
 {
-    "name": "aluno/sistema-farmacia",
-    "description": "Sistema de controle de estoque para farmácia - Trabalho da 5ª fase",
+    "name": "estudante/sistema-farmacia",
+    "description": "Sistema de controle de estoque para farmácia",
     "keywords": ["php", "yii2", "farmacia", "estoque"],
-    "homepage": "https://github.com/aluno/sistema-farmacia",
+    "homepage": "https://github.com/estudante/sistema-farmacia",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/aluno/sistema-farmacia/issues",
-        "source": "https://github.com/aluno/sistema-farmacia"
+        "issues": "https://github.com/estudante/sistema-farmacia/issues",
+        "source": "https://github.com/estudante/sistema-farmacia"
     },
     "minimum-stability": "stable",
     "require": {

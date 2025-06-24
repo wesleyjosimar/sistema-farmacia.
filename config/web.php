@@ -1,14 +1,13 @@
 <?php
 
-// arquivo de configuração principal do sistema
-// feito para o trabalho da 5ª fase de CC
+// configuração principal do sistema
 
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'farmacia-sistema',
-    'name' => 'Sistema de Farmácia - 5ª Fase CC',
+    'name' => 'Sistema de Farmácia',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'language' => 'pt-BR',

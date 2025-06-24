@@ -1,7 +1,7 @@
 # Sistema de Controle de Farmácia
 
 ## 📋 Descrição
-Sistema de controle de estoque desenvolvido para o trabalho da **5ª fase de Ciência da Computação**.
+Sistema de controle de estoque desenvolvido para gerenciar produtos de farmácia.
 
 Este sistema permite gerenciar produtos, categorias, fabricantes e movimentações de estoque de uma farmácia.
 
@@ -41,7 +41,7 @@ Este sistema permite gerenciar produtos, categorias, fabricantes e movimentaçõ
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/aluno/sistema-farmacia.git
+git clone https://github.com/estudante/sistema-farmacia.git
 cd sistema-farmacia
 ```
 
@@ -73,7 +73,7 @@ chmod 777 web/assets/
 ## 📁 Estrutura do Projeto
 
 ```
-farmacia-sistema/
+sistema-farmacia/
 ├── controllers/          # Controllers do sistema
 ├── models/              # Modelos (Produto, Categoria, etc.)
 ├── views/               # Views (templates)
@@ -148,7 +148,7 @@ Este projeto foi desenvolvido para aprender:
 
 ## 👨‍💻 Autor
 
-**Aluno da 5ª Fase - Ciência da Computação**
+**Estudante de Ciência da Computação**
 - Universidade: [Nome da Universidade]
 - Disciplina: Desenvolvimento Web
 - Professor: [Nome do Professor]
@@ -159,4 +159,4 @@ Este projeto é apenas para fins educacionais.
 
 ---
 
-**Desenvolvido com ❤️ para o trabalho da 5ª fase** 
+**Desenvolvido com ❤️ para aprendizado** 

@@ -2,7 +2,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este documento descreve o sistema de controle de farmácia desenvolvido para o trabalho da **5ª fase de Ciência da Computação**.
+Este documento descreve o sistema de controle de farmácia desenvolvido para aprendizado.
 
 ### Objetivos do Sistema
 - Gerenciar produtos da farmácia
@@ -21,7 +21,7 @@ O sistema segue o padrão MVC do framework Yii2:
 
 ### Estrutura de Pastas
 ```
-farmacia-sistema/
+sistema-farmacia/
 ├── controllers/     # Controllers (lógica)
 ├── models/         # Modelos (dados)
 ├── views/          # Views (interface)
@@ -222,7 +222,7 @@ ORDER BY m.data_movimentacao DESC;
 3. **API**: Interface para integração com outros sistemas
 4. **Multi-idioma**: Suporte a outros idiomas
 
-## 📚 Aprendizados do Projeto
+## 📚 Aprendizados
 
 ### Tecnologias Aprendidas
 - **PHP**: Linguagem de programação
@@ -257,10 +257,10 @@ ORDER BY m.data_movimentacao DESC;
 ## 📞 Suporte
 
 Para dúvidas ou problemas:
-- **Email**: aluno@universidade.edu.br
+- **Email**: estudante@universidade.edu.br
 - **Disciplina**: Desenvolvimento Web
 - **Professor**: [Nome do Professor]
 
 ---
 
-**Documento criado para o trabalho da 5ª fase de Ciência da Computação** 
+**Documento criado para documentar o sistema** 

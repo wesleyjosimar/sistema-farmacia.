@@ -17,8 +17,7 @@ $this->title = 'Sistema de Farmácia - Dashboard';
     <div class="p-5 mb-4 bg-light rounded-3">
         <div class="container-fluid py-5 text-center">
             <h1 class="display-4">Sistema de Controle de Farmácia</h1>
-            <p class="fs-5 fw-light">Trabalho da 5ª Fase - Ciência da Computação</p>
-            <p class="lead">Gerencie seu estoque de forma simples e eficiente</p>
+            <p class="fs-5 fw-light">Gerencie seu estoque de forma simples e eficiente</p>
         </div>
     </div>
 
@@ -160,8 +159,8 @@ $this->title = 'Sistema de Farmácia - Dashboard';
                     <div class="card-body text-center">
                         <h4>ℹ️ Informações do Sistema</h4>
                         <p class="text-muted">
-                            Sistema desenvolvido para o trabalho da 5ª fase de Ciência da Computação.<br>
-                            Tecnologias utilizadas: PHP, Yii2 Framework, MySQL, Bootstrap 5
+                            Sistema desenvolvido para controle de estoque de farmácia.<br>
+                            Tecnologias: PHP, Yii2 Framework, MySQL, Bootstrap 5
                         </p>
                     </div>
                 </div>
