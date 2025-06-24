@@ -95,9 +95,14 @@ class ProdutoController extends Controller
 
         // se recebeu dados do formulário
         if ($model->load(Yii::$app->request->post())) {
+            $post = Yii::$app->request->post('Produto');
+            // trata os preços (remove pontos e vírgulas)
+            $model->preco_custo = str_replace(['.', ','], ['', '.'], $post['preco_custo']);
+            $model->preco_venda = str_replace(['.', ','], ['', '.'], $post['preco_venda']);
+
             // trata a data de validade se foi informada
-            if ($data = Yii::$app->request->post('Produto')['data_validade']) {
-                $model->data_validade = $this->formatarData($data);
+            if (!empty($post['data_validade'])) {
+                $model->data_validade = $this->formatarData($post['data_validade']);
             }
 
             // tenta salvar o produto
@@ -128,10 +133,9 @@ class ProdutoController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             $post = Yii::$app->request->post('Produto');
-            
-            // trata os preços (remove pontos e vírgulas)
-            $model->preco_custo = str_replace(['.', ','], ['', '.'], $post['preco_custo']);
-            $model->preco_venda = str_replace(['.', ','], ['', '.'], $post['preco_venda']);
+            // trata os preços (remove pontos, vírgulas e espaços)
+            $model->preco_custo = str_replace(['.', ','], ['', '.'], trim($post['preco_custo']));
+            $model->preco_venda = str_replace(['.', ','], ['', '.'], trim($post['preco_venda']));
             
             // trata a data de validade
             if (!empty($post['data_validade'])) {
